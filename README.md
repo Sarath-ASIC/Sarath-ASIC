@@ -9,7 +9,7 @@
 
 ---
 
-## `whoami`
+## `who am I`
 
 **M.Tech VLSI Design & Embedded Systems** student focused on building and verifying digital hardware.
 
@@ -28,9 +28,10 @@ I enjoy projects that move beyond RTL into **simulation, assertions, coverage, i
 | Area | Tools / Technologies |
 |---|---|
 | RTL | Verilog, SystemVerilog |
-| Verification | SVA, functional coverage, QuestaSim |
+| Verification | SVA, functional coverage, QuestaSim, Arm NIK |
+| VLSI Tools | Synopsys VCS ,Verdi, Cadence Xcelium, Siemens Questa |
 | FPGA | Vivado, Libero SoC |
-| Architecture | AHB, SoC / MSS integration, memory systems |
+| Architecture | AHB, SoC / MSS integration, memory systems , CXL , LPDDR5X, Cache Architecture |
 | Software | C, Python, TCL, Linux |
 | Open-source flow | Yosys, Verilator, GTKWave, OpenROAD |
 
