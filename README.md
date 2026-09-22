@@ -1,133 +1,73 @@
-<div align="center">
+# SARATH-ASIC
 
-# `SARATH-ASIC`
-### RTL DESIGN • DESIGN VERIFICATION • FPGA • SoC
+**M.Tech VLSI · RTL Design · SystemVerilog · Design Verification**
 
-<img src="./assets/engineering_dashboard.svg" alt="Sarath ASIC engineering dashboard" width="100%"/>
+> **BUILD → SIMULATE → ASSERT → COVER → VERIFY**
 
-</div>
+<!-- PROFILE:START -->
+> Profile data has not been generated yet. Run `python scripts/generate_profile.py`, or let GitHub Actions generate it.
+<!-- PROFILE:END -->
 
----
+## Engineering Direction
 
-## `who am I`
+My current engineering focus is building depth in **RTL design and Design Verification**, with SystemVerilog as the main verification language and increasing focus on memory and interconnect architecture.
 
-**M.Tech VLSI Design & Embedded Systems** student focused on building and verifying digital hardware.
+### Current Focus
 
-```text
-RTL DESIGN  ───────┐
-                   ├──► DIGITAL HARDWARE
-DESIGN VERIFICATION┤
-                   │
-FPGA / SoC ────────┘
-```
-
-I enjoy projects that move beyond RTL into **simulation, assertions, coverage, integration, and implementation**.
-
-## `current_stack`
-
-| Area | Tools / Technologies |
-|---|---|
-| RTL | Verilog, SystemVerilog |
-| Verification | SVA, functional coverage, QuestaSim, Arm NIK |
-| VLSI Tools | Synopsys VCS ,Verdi, Cadence Xcelium, Siemens Questa |
-| FPGA | Vivado, Libero SoC |
-| Architecture | AHB, SoC / MSS integration, memory systems , CXL , LPDDR5X, Cache Architecture |
-| Software | C, Python, TCL, Linux |
-| Open-source flow | Yosys, Verilator, GTKWave, OpenROAD |
-
-## `lab`
-
-### `01` — RTL-Based Memory Accelerator
-Cache-assisted memory architecture for SPI-attached systems.
-
-```text
-SPI ──► Controller ──► Cache ──► Memory
-                  │
-                  └──► Burst Refill
-```
-
-### `02` — Hardware-Assisted Runtime Verification
-Runtime assertion monitoring + functional coverage for FPGA systems.
-
-```text
-RTL
- │
- ├──► Assertion Monitor
- ├──► Coverage Collector
- └──► Event Logger
-          │
-          ▼
-       CPU / SoC
-```
-
-### `03` — MSS + AHB FPGA Integration
-SmartFusion2 MSS / FPGA subsystem integration.
-
-```text
-CPU / MSS
-    │
-  FIC_0
-    │
-    ▼
-CoreAHBLite ──► Custom AHB Slave
-```
-
-### `04` — CXL.mem → LPDDR5X
-Memory-system architecture / RTL project focused on the path from a coherent memory protocol toward a modern DRAM subsystem.
-
-## `verification`
-
-```text
-SPECIFICATION
-      │
-      ▼
-TEST PLAN
-      │
-      ▼
-DIRECTED TESTS ──► CORNER CASES
-      │
-      ▼
-ASSERTIONS
-      │
-      ▼
-FUNCTIONAL COVERAGE
-      │
-      ▼
-DEBUG / ANALYSIS
-```
-
-Current focus:
-
-- SystemVerilog Assertions
+- SystemVerilog RTL and verification
+- SystemVerilog Assertions (SVA)
+- Temporal properties and assertion-based verification
 - Functional coverage
-- Constrained-random verification
-- UVM architecture
-- Protocol-oriented verification
-- Coverage-driven corner cases
+- Layered testbench architecture
+- Memory verification
+- CXL.mem and memory-expansion concepts
+- LPDDR5X / high-bandwidth memory architecture
+- Progression from SystemVerilog verification toward UVM
 
-## `engineering_log`
-
-```text
-[ RTL ]       ████████████████████░░░░
-[ SVA ]       █████████████████░░░░░░
-[ FPGA ]      ███████████████████░░░░
-[ DV ]        ████████████████░░░░░░░
-[ UVM ]       ███████████░░░░░░░░░░░
-[ C / TCL ]   ███████████████░░░░░░░
-```
-
-These bars indicate current engineering/learning focus, **not formal skill scores**.
-
-## `github_telemetry`
-
-The dashboard is regenerated automatically by GitHub Actions. It refreshes public GitHub information such as repository count, followers, stars, recent commit activity, and the refresh timestamp.
-
-## `connect`
-
-**GitHub:** `@Sarath-ASIC`
+### Verification Concepts
 
 ```text
-BUILD → SIMULATE → VERIFY → IMPLEMENT → REPEAT
+SystemVerilog
+├── RTL
+├── Testbench Architecture
+├── Assertions
+│   ├── Immediate / Concurrent Assertions
+│   ├── Sequences / Properties
+│   ├── |-> / |=>
+│   ├── ## temporal delays
+│   ├── $past / $rose / $fell / $stable
+│   └── disable iff
+└── Functional Coverage
+    ├── covergroup
+    ├── coverpoint
+    ├── bins
+    ├── illegal_bins
+    └── cross coverage
 ```
 
-**Hardware is not just code. It is behavior over time.**
+### Architecture Interests
+
+```text
+Memory & Interconnect
+├── CXL
+│   └── CXL.mem
+│       ├── Memory expansion
+│       ├── Host/device memory interaction
+│       └── Memory hierarchy
+└── LPDDR5X
+    ├── Memory architecture
+    ├── Controller concepts
+    └── Verification considerations
+```
+
+## Verification Philosophy
+
+> **Don't only check whether the design produces the expected output. Define what must always be true, exercise meaningful scenarios, and collect evidence that the intended behavior was explored.**
+
+The generated section is evidence-driven: repository activity, languages, detected technologies, and recent commits are generated automatically. Subjective skill percentages are intentionally avoided.
+
+## Connect
+
+- GitHub: [Sarath-ASIC](https://github.com/Sarath-ASIC)
+
+<!-- PROFILE:END -->

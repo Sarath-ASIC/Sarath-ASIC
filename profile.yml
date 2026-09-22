@@ -1,0 +1,68 @@
+# Human-maintained configuration.
+# Keep this small. Repository evidence is generated automatically.
+
+username: Sarath-ASIC
+
+current_focus:
+  - SystemVerilog Verification
+  - SystemVerilog Assertions (SVA)
+  - Functional Coverage
+  - Memory Verification
+  - CXL.mem
+  - LPDDR5X
+
+learning:
+  - Advanced SystemVerilog
+  - Layered Testbench Architecture
+  - UVM
+  - CXL.mem Architecture
+  - LPDDR5X Memory Architecture
+
+featured_repositories: []
+
+excluded_repositories:
+  - Sarath-ASIC
+
+max_repositories: 30
+
+technology_signatures:
+  SystemVerilog:
+    - ".sv"
+    - ".svh"
+    - "systemverilog"
+  Verilog:
+    - ".v"
+    - ".vh"
+    - "verilog"
+  SVA:
+    - "assert property"
+    - "assertion"
+    - "cover property"
+    - "$past"
+    - "$rose"
+    - "$fell"
+    - "disable iff"
+  Functional Coverage:
+    - "covergroup"
+    - "coverpoint"
+    - "cross coverage"
+    - "illegal_bins"
+  UVM:
+    - "uvm"
+    - "uvm_test"
+    - "uvm_component"
+    - "uvm_sequence"
+  CXL:
+    - "cxl"
+    - "cxl.mem"
+    - "cxl_mem"
+  LPDDR5X:
+    - "lpddr5x"
+    - "lpddr5"
+  Memory Verification:
+    - "memory verification"
+    - "mem verification"
+    - "memory test"
+  Testbench:
+    - "testbench"
+    - "verification"
