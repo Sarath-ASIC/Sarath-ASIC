@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-22 10:38 UTC",
+  "public_repositories": 10,
+  "followers": 0,
+  "languages": {
+    "C": 1,
+    "Verilog": 4,
+    "HTML": 1,
+    "SystemVerilog": 1,
+    "Python": 1
+  },
+  "technology_evidence": {
+    "SystemVerilog": [
+      "SystemVerilog-DV",
+      "layered-tb-architecture"
+    ],
+    "Verilog": [
+      "KriSemi",
+      "SystemVerilog-DV",
+      "Verilog-Basic-codes",
+      "layered-tb-architecture",
+      "cache-assisted-spi-memory",
+      "sync-fifo-verilog"
+    ],
+    "SVA": [],
+    "Functional Coverage": [],
+    "UVM": [],
+    "CXL": [],
+    "LPDDR5X": [],
+    "Memory Verification": [],
+    "Testbench": [
+      "C-Verification-Lab",
+      "layered-tb-architecture",
+      "Python-Scripting-For-VLSI"
+    ]
+  },
+  "recent_activity": [
+    {
+      "repo": "C-Verification-Lab",
+      "message": "Create palindrom.c",
+      "date": "2026-09-16T15:37:49Z",
+      "url": "https://github.com/Sarath-ASIC/C-Verification-Lab/commit/188458e215686eda14d47ac71be7e3f3d2bb8734"
+    },
+    {
+      "repo": "C-Verification-Lab",
+      "message": "Create text_analyzer.c",
+      "date": "2026-09-16T15:32:13Z",
+      "url": "https://github.com/Sarath-ASIC/C-Verification-Lab/commit/24104cca8d09d536c460c0e8017fb247a6af79e5"
+    },
+    {
+      "repo": "C-Verification-Lab",
+      "message": "Add digit counter program in C",
+      "date": "2026-09-16T15:27:58Z",
+      "url": "https://github.com/Sarath-ASIC/C-Verification-Lab/commit/013e056f2e75aea5f4457b988698023ab4349ca2"
+    },
+    {
+      "repo": "KriSemi",
+      "message": "Create convert.py",
+      "date": "2026-09-15T10:27:21Z",
+      "url": "https://github.com/Sarath-ASIC/KriSemi/commit/84eadaa66884246e70d12bc6b819e83e00c42313"
+    },
+    {
+      "repo": "KriSemi",
+      "message": "Add linker file for memory mapping in project",
+      "date": "2026-09-15T10:23:02Z",
+      "url": "https://github.com/Sarath-ASIC/KriSemi/commit/b2f0e7655e1db2b42e6982862bf65973ce4eacc2"
+    },
+    {
+      "repo": "KriSemi",
+      "message": "Create main.c",
+      "date": "2026-09-15T10:22:26Z",
+      "url": "https://github.com/Sarath-ASIC/KriSemi/commit/771e57ab0b8e9447753545e196cb755562aa3f75"
+    },
+    {
+      "repo": "SystemVerilog-DV",
+      "message": "Delete DV-SandBox/DMA-Engine/Reports/README.md",
+      "date": "2026-09-15T06:53:24Z",
+      "url": "https://github.com/Sarath-ASIC/SystemVerilog-DV/commit/f4821d79e699a7625829726de1b346e80cc5996f"
+    },
+    {
+      "repo": "SystemVerilog-DV",
+      "message": "Add files via upload",
+      "date": "2026-09-15T06:52:29Z",
+      "url": "https://github.com/Sarath-ASIC/SystemVerilog-DV/commit/d236d560742d71ae02115d37213f5c4110683f1e"
+    },
+    {
+      "repo": "SystemVerilog-DV",
+      "message": "Create README.md",
+      "date": "2026-09-15T06:51:41Z",
+      "url": "https://github.com/Sarath-ASIC/SystemVerilog-DV/commit/012a4dfd593a31eface1fdca3fb304fbcf56984a"
+    },
+    {
+      "repo": "Verilog-Basic-codes",
+      "message": "Update mem_tb.v",
+      "date": "2026-09-08T04:20:15Z",
+      "url": "https://github.com/Sarath-ASIC/Verilog-Basic-codes/commit/4377806d259fc3c377af33d0f8cf910a2f4a1b51"
+    }
+  ]
+}
